@@ -1,0 +1,32 @@
+.grid-container1 {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px
+}
+
+.grid-container1 > div {
+  background-color: aqua;
+}
+.item1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  padding: 8px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px
+}
+.grid-container2 > div {
+  background-color: yellow;
+}

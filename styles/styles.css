@@ -1,3 +1,36 @@
+.contact {
+  font-family: cursive;
+}
+input:invalid {
+  border-color: red;
+}
+input[type="text"] {
+  color: black;
+  background-color: yellow;
+}
+input[type="submit"]:hover {
+  border-color: red;
+  border: 8px solid green;
+}
+input[name="firstname"]:hover {
+  border-color: red;
+  border: 8px solid green;
+}
+input[name="lastname"]:hover {
+  border-color: red;
+  border: 8px solid green;
+}
+.Topic:hover {
+  border: 8px solid green;
+}
+textarea {
+  background-color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  border: 8px solid green;
+}
+
 .grid-container1 {
   display: grid;
   grid-template-rows: auto auto auto;
@@ -29,7 +62,7 @@ li a {
   padding: 10px
   align-content: center;
 }
-.grid-container2 > div {
+  .grid-container2 > div{
   background-color: yellow;
 }
 .grid-container1 {
@@ -42,6 +75,5 @@ li a {
   width: 70%;
   height: auto;
   margin: 10px;
-  text-align: center;
   font-size: auto;
 }

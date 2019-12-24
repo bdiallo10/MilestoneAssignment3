@@ -42,9 +42,6 @@ a:hover {
   align-content: center;
 }
 
-.grid-container1 > div {
-  background-color: aqua;
-}
 .item1 ul {
   list-style-type: none;
   margin: 0;
@@ -57,4 +54,7 @@ li {
 li a {
   display: block;
   padding: 8px;
+}
+iframe {
+  align-items: center;
 }

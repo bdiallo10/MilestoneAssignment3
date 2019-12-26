@@ -9,7 +9,7 @@ input:invalid {
 }
 input[type="text"] {
   color: black;
-  background-color: yellow;
+  background-color: #FAFAFA;
 }
 input[type="submit"]:hover {
   border-color: red;
@@ -27,7 +27,7 @@ input[name="lastname"]:hover {
   border: 8px solid green;
 }
 textarea {
-  background-color: yellow;
+  background-color: #FAFAFA;
 }
 a:hover {
   text-decoration: none;
